@@ -1,29 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.5cf92d86.css",
-    "main.js": "/portfolio-react/static/js/main.708daf18.js",
+    "main.js": "/portfolio-react/static/js/main.93375014.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio-react/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/portfolio-react/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/portfolio-react/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/portfolio-react/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/portfolio-react/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/blog.png": "/portfolio-react/static/media/blog.fb8ab7f271a937d5fc01.png",
     "static/media/home-main.svg": "/portfolio-react/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/portfolio-react/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/KarthikeyanK-Resume.pdf": "/portfolio-react/static/media/KarthikeyanK-Resume.39673a6441d1e9852ef1.pdf",
+    "static/media/gym.png": "/portfolio-react/static/media/gym.f5f90b453ef87b5bcb17.png",
     "static/media/chatify.png": "/portfolio-react/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/portfolio-react/static/media/Soumyajit_Behera-BIT_MESRA.f31c00c0623443fc6fa3.pdf",
+    "static/media/wastemanagement.png": "/portfolio-react/static/media/wastemanagement.f61aebc22e47103ee9dd.png",
     "static/media/home-bg.jpg": "/portfolio-react/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/taxi-app.png": "/portfolio-react/static/media/taxi-app.b9286613977898e980ca.png",
+    "static/media/game-controller.png": "/portfolio-react/static/media/game-controller.6edc5beda255ad69742d.png",
+    "static/media/calculator.png": "/portfolio-react/static/media/calculator.ccdfa858ba22c8f3b3b7.png",
     "static/media/avatar.svg": "/portfolio-react/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/portfolio-react/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio-react/index.html",
     "main.5cf92d86.css.map": "/portfolio-react/static/css/main.5cf92d86.css.map",
-    "main.708daf18.js.map": "/portfolio-react/static/js/main.708daf18.js.map",
+    "main.93375014.js.map": "/portfolio-react/static/js/main.93375014.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio-react/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf92d86.css",
-    "static/js/main.708daf18.js"
+    "static/js/main.93375014.js"
   ]
 }
