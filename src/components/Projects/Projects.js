@@ -4,10 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import waste from "../../Assets/Projects/wastemanagement.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import calculator from "../../Assets/Projects/calculator.png";
+import taxiapp from "../../Assets/Projects/taxi-app.png";
+import game from "../../Assets/Projects/game-controller.png";
+import gymWeb from "../../Assets/Projects/gym.png";
 
 function Projects() {
   return (
@@ -26,65 +28,64 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="A personal chat room or workspace designed for sharing resources and hanging out with friends, built using the MERN stack, Socket.io, TailwindCSS, and Daisy UI. It features real-time messaging powered by Socket.io, image sharing, and message reactions. Authentication and authorization are handled with JWT, while Zustand is used for global state management. Additionally, it includes online user status tracking and robust error handling on both the server and client sides"
+              ghLink="https://github.com/karthikeyan120602/chat-app"
+              demoLink="https://drive.google.com/file/d/1UIOVYDqoRfLKixCJsKzTfnC_JYtn5xiM/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={taxiapp}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Taxi-App"
+              description="Taxi App is a fully-featured mobile app built with React Native for the user interface, Google Maps for displaying maps and directions, Stripe for payment processing, and serverless Postgres for database management, all styled with TailwindCSS. The app is designed to showcase the development of full-stack mobile applications, highlighting the developer's skills in a unique and impactful way."
+              ghLink="https://github.com/karthikeyan120602/taxi-app-frontend-expo-sdk52"
+              demoLink="https://drive.google.com/file/d/1S6EKJ0M0qlvzkgNgwqe6cuHdOWz4_TZg/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={waste}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Waste Management"
+              description="Zero2Hero is an innovative AI-powered waste management platform built with Next.js 14, designed to incentivize and streamline the waste reporting and collection process. By integrating cutting-edge technologies such as Google Gemini AI, Web3Auth, and Neon Database, Zero2Hero fosters a community-driven approach to waste management, rewarding users for their eco-friendly actions. With features like AI-assisted waste verification, a user reward system, real-time task management, and an interactive leaderboard, this platform encourages environmental sustainability while promoting active community engagement."
+              ghLink="https://github.com/karthikeyan120602/waste-management-ai-web"
+              demoLink="https://drive.google.com/file/d/1iQPM_Pyym6KHQxh_cvD419NkbfteGfeQ/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={game}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Game Controller"
+              description="This project uses OpenCV and MediaPipe for device-free full-body pose detection, enabling children to control games through natural body movements like arm gestures and leg lifts. By eliminating the need for external devices, it aims to improve gaming accuracy and promote physical activity for better health outcomes."
+              ghLink="https://github.com/karthikeyan120602/game-controller"
+              demoLink="https://drive.google.com/file/d/119yac0dHoQB0otBYGEIoNZqNHfiBhTD1/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={calculator}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="MathCanvas: AI-Powered Drawing Calculator"
+              description="MathCanvas is an innovative AI-powered calculator that brings your drawings to life! Inspired by the iPad Math Notes/Calculator application, this project allows users to draw mathematical equations, which are then recognized and solved in real-time using the Gemini Flash AI API. Built with Python for the backend and React for the frontend, MathCanvas combines powerful AI with an interactive user interface to provide an intuitive and seamless experience for solving math problems.."
+              ghLink="https://github.com/karthikeyan120602/calc-fe"
+              demoLink="https://drive.google.com/file/d/1QWI-qF9vlVr-lYC9y6rWdCPWAY3gbd0Y/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={gymWeb}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Gym Trainer"
+              description="This project leverages MediaPipe for real-time full-body pose detection to track gym workouts and provide feedback on body movements like arm gestures, squats, and jumps. By analyzing body posture and landmarks, it helps track calories burned, improve workout performance, and correct movement patterns to reduce injury risk, offering a device-free solution with increased accuracy and efficiency compared to existing methods."
+              ghLink="https://github.com/karthikeyan120602/Gym-Trainer"
+              demoLink="https://drive.google.com/file/d/1BJueU6W4qY8lwLAOcLGX0leCF3lA9JEY/view?usp=sharing"
             />
           </Col>
         </Row>
